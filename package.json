@@ -1,8 +1,8 @@
 
 {
-  "name": "stop-simulator-tests",
+  "name": "stop-simulator",
   "version": "1.0.0",
-  "description": "Run unit tests on this project.",
+  "description": "Financial risk simulation platform using Clarity smart contracts",
   "type": "module",
   "private": true,
   "scripts": {
@@ -10,7 +10,7 @@
     "test:report": "vitest run -- --coverage --costs",
     "test:watch": "chokidar \"tests/**/*.ts\" \"contracts/**/*.clar\" -c \"npm run test:report\""
   },
-  "author": "",
+  "author": "Blockchain Risk Management Team",
   "license": "ISC",
   "dependencies": {
     "@hirosystems/clarinet-sdk": "^2.14.0",
